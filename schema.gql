@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Company {
+  id: String!
+  createdAt: String!
+  name: String!
+  parentId: String!
+  cost: Float!
+  children: [Company!]
+}
+
+type Query {
+  companies: [Company!]!
+}
