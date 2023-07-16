@@ -32,20 +32,20 @@ yarn test:coverage
 query {
     companies {
         id,
-        name,
         createdAt,
+        name,
         parentId,
         cost,
         children {
             id,
-            name,
             createdAt,
+            name,
             parentId,
             cost,
             children {
                 id,
-                name,
                 createdAt,
+                name,
                 parentId,
                 cost,
                 children {
